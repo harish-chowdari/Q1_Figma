@@ -84,6 +84,84 @@ font-weight: 800;
 }
 
 
+
+@media screen and (max-width:800px){
+
+    .first-visible {
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    
+    
+
+    .strong{
+        font-size: 0.8rem;
+    }
+    
+    .step1-btn-1 {
+        width: 65px;
+        height: 25px;
+        margin-bottom: 8px;
+        margin-right: 10px;
+        font-size: 0.7rem;
+    }
+    
+    .label-in-step1-top{
+        display: flex;
+        gap: 5px;
+    }
+
+    .step1-text-title{
+        font-size: 0.8rem;
+    }
+    
+    .step1-text-subtitle{
+        margin: 0px;
+        margin-left: 25px;
+        color: #4375FB;
+        font-size: 0.65rem;
+        
+    }
+    
+    
+    
+    .step1-text{
+    margin: 0px;
+    color: #4375FB;
+    font-size: 0.8rem;
+    margin-left: 25px;
+    font-weight: 800;
+    }
+
+    .step1-top{
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .step1-div-top-right{
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .step1-top-btn{
+        padding: 0px 7px;
+        height: 25px;
+        color: #4375FB;
+        font-size: 0.7rem;
+    }
+    
+    .step-date{
+        font-size: 0.7rem;
+    }
+
+}
+
+
+
+
 @media screen and (max-width:500px){
 
     .first-visible {

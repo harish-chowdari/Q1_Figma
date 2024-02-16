@@ -30,6 +30,41 @@
 }
 
 
+
+
+
+@media screen and (max-width:800px){
+
+    .hero-top{
+        padding: 1% 4% 0% 4%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        
+    }
+
+    .hero-middle{
+        padding: 1% 4% 0% 4%;
+        
+    }
+    .hero-top p{
+        font-size: 0.8rem;
+    }
+
+    .land-img{
+        height: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:500px){
 
     .hero-top{

@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .navbar-top {
@@ -11,6 +13,7 @@
     justify-content: space-between;
     Padding:1% 7%;
     align-items: center;
+    
     
 }
 
@@ -52,6 +55,57 @@
 img{
     height: 30px;
 }
+
+
+.numbers{
+    display: flex;
+    align-items: center;
+}
+
+.numbers img{
+    height: 16px;
+    width: 16px;
+    border-bottom: 3px solid black;
+    margin-top: 1px;
+}
+
+.black-num{
+
+    border-bottom: 3px solid black;
+}
+
+.gery-num{
+    color: #d9d9d9;
+}
+
+
+
+
+@media screen and (max-width:800px){
+
+    .navbar-top-button{
+    Padding: 8px 0px;
+    font-family: Switzer;
+    font-size: 0.75rem;
+    width: 130%;
+    }
+
+    .navbar-top{
+        padding: 1% 4% 1% 4%;
+
+    }
+
+    .navbar-bottom{
+        padding: 0% 4% 0% 4%;
+
+    }
+
+    .navbar-bottom-text{
+        font-size: 0.85rem;
+    }
+}
+
+
 
 
 @media screen and (max-width:500px){
