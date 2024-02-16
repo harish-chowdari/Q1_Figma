@@ -4,9 +4,7 @@
     padding: 3% 7%;
     background-color: white;
     gap: 15px;
-    position: sticky;
-    top: 160px;
-    z-index: 99;
+    
 }
 
 
@@ -165,9 +163,7 @@
         padding: 2% 4%;
         background-color: white;
         gap: 10px;
-        position: sticky;
-    top: 95px;
-    z-index: 99;
+        
     }
     
     
@@ -333,9 +329,7 @@
         padding: 1% 4% 0% 4%;
         background-color: white;
         gap: 20px;
-        position: sticky;
-        top: 85px;
-        z-index: 99;
+        
     }
 
     .footer-title{
