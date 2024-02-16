@@ -133,3 +133,164 @@
     margin-bottom: 20px;
 
 }
+
+
+@media screen and (max-width:500px){
+
+    
+.sl-div-1{
+    padding: 0px 10px;
+    background-color: white;
+    
+}
+
+.sl-div-1 h2{
+    font-size: 0.8rem;
+}
+
+.sl-div-1 p{
+    font-size: 0.75rem;
+}
+
+
+.sl-div-2{
+    padding: 0px 10px;
+    background-color: white;
+    
+}
+
+.sl-div-2 h2{
+    font-size: 0.8rem;
+}
+
+.sl-div-2 p{
+    font-size: 0.75rem;
+}
+
+
+.sl-div-land{
+    padding: 0px 12px 10px 12px;
+    background-color: white;
+}
+
+
+
+.flight-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1.5px solid #d9d9d9;
+    padding: 0px 5px;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.flight-div-img{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    
+}
+
+.flight-div img{
+    height: 18px;
+}
+
+.flight-div-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight-div-text h3{
+    margin: 5px 0px;
+    font-size: 0.7rem;
+}
+
+.flight-div-img h3{
+    font-size: 0.7rem;
+}
+
+.flight-div-text p{
+    font-size: 0.6rem;
+
+}
+
+.title-land{
+    font-size: 0.8rem;
+}
+
+
+.highway-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1.5px solid #d9d9d9;
+    padding: 0px 5px;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.highway-div-img{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    
+}
+
+.highway-div img{
+    height: 18px;
+}
+
+.highway-div-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highway-div-text h3{
+    margin: 5px 0px;
+    font-size: 0.7rem;
+}
+
+.highway-div-img h3{
+    font-size: 0.7rem;
+}
+
+.highway-div-text p{
+    font-size: 0.6rem;
+
+}
+
+.map-div{
+    background-color: white;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.map-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.map-div h2{
+    font-size: 0.8rem;
+}
+
+.map-button{
+    padding: 7px 8px;
+    font-size: 0.55rem;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+}

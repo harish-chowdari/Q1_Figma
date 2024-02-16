@@ -1,0 +1,172 @@
+
+.first-visible {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.label-in-step-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.step1-btn-1 {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 8px;
+    align-self: flex-end; 
+    background: #4375FB;
+    border: none;
+    margin-right: 12px;
+
+}
+
+
+.step1-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.label-in-step1-top{
+    display: flex;
+    gap: 10px;
+}
+
+.step1-div-top-left{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 1px;
+}
+.step1-text-title{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.step1-text-subtitle{
+    margin: 0px;
+    margin-left: 30px;
+    color: #4375FB;
+    
+}
+
+.step1-text{
+    margin: 0px;
+}
+
+.step1-text{
+margin: 0px;
+color: #4375FB;
+font-size: 27px;
+margin-left: 30px;
+font-weight: 800;
+}
+
+.step1-div-top-right{
+    margin: 0px;
+}
+
+.step1-top-btn{
+    border: 1px solid #4375FB;
+    background-color: white;
+    padding: 17px 31px;
+    color: #4375FB;
+}
+
+
+@media screen and (max-width:500px){
+
+    .first-visible {
+        gap: 10px;
+        flex-direction: column;
+        
+    }
+    
+    .label-in-step-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .strong{
+        font-size: 0.7rem;
+    }
+    
+    .step1-btn-1 {
+        width: 60px;
+        height: 20px;
+        margin-bottom: 8px;
+        margin-right: 5px;
+        font-size: 0.6rem;
+    }
+    
+    
+    .step1-top{
+        margin: 0px;
+    }
+    
+    .label-in-step1-top{
+        display: flex;
+        gap: 5px;
+    }
+
+    .step1-text-title{
+        margin: 0px;
+        font-size: 0.65rem;
+        font-weight: 700;
+        padding-top: 3px;
+    }
+    
+    .step1-text-subtitle{
+        margin: 0px;
+        margin-left: 25px;
+        color: #4375FB;
+        font-size: 0.55rem;
+        
+    }
+    
+    
+    
+    .step1-text{
+    margin: 0px;
+    color: #4375FB;
+    font-size: 0.7rem;
+    margin-left: 25px;
+    font-weight: 800;
+    }
+
+    .step1-top{
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .step1-div-top-right{
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .step1-top-btn{
+        padding: 0px 5px;
+        height: 20px;
+        color: #4375FB;
+        font-size: 0.6rem;
+    }
+    
+    .step-date{
+        font-size: 0.6rem;
+    }
+
+}

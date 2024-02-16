@@ -15,7 +15,7 @@
 }
 
 .navbar-top-button {
-    Padding: 14% 20%;
+    Padding: 14% 18%;
     background: #4375FB;
     border: none;
     color: #F2F2F2;
@@ -53,6 +53,30 @@ img{
     height: 30px;
 }
 
+
+@media screen and (max-width:500px){
+
+    .navbar-top-button{
+    Padding: 8px 0px;
+    font-family: Switzer;
+    font-size: 0.7rem;
+    width: 150%;
+    }
+
+    .navbar-top{
+        padding: 1% 4% 1% 4%;
+
+    }
+
+    .navbar-bottom{
+        padding: 0% 4% 0% 4%;
+
+    }
+
+    .navbar-bottom-text{
+        font-size: 0.8rem;
+    }
+}
 
 
 

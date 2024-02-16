@@ -50,7 +50,7 @@ const ScrollLeft = () => {
 
         <div className='sl-div-land'>
 
-            <h2>Landmarks</h2>
+            <h2 className='title-land'>Landmarks</h2>
             <div className='flight-div'>
                 <div className='flight-div-img'>
                     <img src={flight} alt='' />

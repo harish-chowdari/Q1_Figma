@@ -1,4 +1,12 @@
-.scroll-right{
-    width: 50%;
-    background-color: white;
+
+.all-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: sticky;
+    top: 0;
+    
 }
+
+
+

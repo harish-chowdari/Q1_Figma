@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='footer'>
         
         <div className='footer-top-left'>
-            <h2>Theme Park Site</h2>
+            <h2 className='footer-title'>Theme Park Site</h2>
           <div className='location-footer'>
             <img src={placeholder} alt='icon location'></img>
             <p>Address Of the site</p>
