@@ -1,0 +1,32 @@
+.hero{
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.hero-top{
+    Padding:3% 7% 0% 7%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.hero-top p{
+    color: #7C7C7C;
+    font-family: Switzer;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero-middle{
+    Padding:1% 7% 0% 7%;
+    
+}
+
+.land-img{
+    width: 100%;
+    height: auto;
+}
+
+
+

@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.navbar-top {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    Padding:1% 7%;
+    align-items: center;
+    
+}
+
+.navbar-top-button {
+    Padding: 14% 20%;
+    background: #4375FB;
+    border: none;
+    color: #F2F2F2;
+    font-family: Switzer;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 150%;
+}
+
+.navbar-top img{
+    width: 22.5px;
+    height: 21.92px;
+}
+
+
+.navbar-bottom {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    Padding:0% 7%;
+    
+}
+
+.navbar-bottom-text {
+    font-family: Switzer;
+    font-size: 1.5rem;        
+    font-weight: 700;
+    color: #000000;
+    
+    
+    
+}
+
+img{
+    height: 30px;
+}
+
+
+
+
